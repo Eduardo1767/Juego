@@ -1,0 +1,38 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	background-color: black;
+}
+
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 1518px;
+    height: 620px;
+    background-color: rgb(39, 42, 85);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+
+
+#player {
+	background-color: rgb(179, 23, 23);
+	border: 5px outset rgb(252, 252, 252);
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+	position: center;
+	transition: all 0.09s
+
+}
+.pointer {
+	background-color: rgb(0, 0, 0);
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px 0px;
+}
